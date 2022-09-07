@@ -1,6 +1,7 @@
 body{
     background: url(https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/02/namek-dragon-ball.jpg?resize=1280%2C630&quality=80&ssl=1);
     background-size: 100%;
+    max-width: 1300px;
 }
 #Texto1{background-color: rgb(95, 94, 94);
     border: cornflowerblue;
@@ -45,4 +46,3 @@ body{
     float: left;
     width: 45%;
 }
-
