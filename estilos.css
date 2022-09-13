@@ -7,11 +7,12 @@ body{
     border: cornflowerblue;
     border-style:double; 
     width: 65%;
-    height: 30%;
+    height: auto;
     float: left;
     font-family: verdana;
     font-size: 150%;
     text-align: justify;
+    position: sticky;
 }
 #p_texto1{
     text-align: center;
@@ -40,9 +41,15 @@ body{
     font-size: 150%;
     background-color: rgb(107, 74, 41);
     text-align: center; 
-    float:left
+    float:left;
+    position: static; 
 }
 #imagen2{
     float: left;
     width: 45%;
+}
+aside{
+    position: relative;
+    right:170px;
+    bottom: -50px;
 }
